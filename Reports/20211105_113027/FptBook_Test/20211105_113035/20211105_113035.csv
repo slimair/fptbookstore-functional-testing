@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FptBook_Test,Firefox 88.0,,,2021-11-05 11:30:50,2021-11-05 11:31:57,1m - 7.629s,PASSED
+,,,,,,,
+Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart,Firefox 88.0,,,2021-11-05 11:30:52,2021-11-05 11:31:57,1m - 5.238s,PASSED
+"openBrowser("""")",Firefox 88.0,,,2021-11-05 11:30:56,2021-11-05 11:31:14,18.230s,PASSED
+"navigateToUrl(""http://fptbookstore.slimair.cool/"")",Firefox 88.0,,,2021-11-05 11:31:14,2021-11-05 11:31:19,5.002s,PASSED
+maximizeWindow(),Firefox 88.0,,,2021-11-05 11:31:19,2021-11-05 11:31:19,0.318s,PASSED
+"click(findTestObject(""Object Repository/Page_Home  FptBookStore/a_Login""))",Firefox 88.0,,,2021-11-05 11:31:19,2021-11-05 11:31:24,4.699s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home  FptBookStore/input_Email_Input.Email""), ""phuongnnse@fpt.edu.vn"")",Firefox 88.0,,,2021-11-05 11:31:24,2021-11-05 11:31:26,1.751s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Home  FptBookStore/input_Password_Input.Password""), ""rBiF04Ek6lW1rw3U6XrRJA=="")",Firefox 88.0,,,2021-11-05 11:31:26,2021-11-05 11:31:28,1.949s,PASSED
+"click(findTestObject(""Object Repository/Page_Home  FptBookStore/button_Log in""))",Firefox 88.0,,,2021-11-05 11:31:28,2021-11-05 11:31:31,3.306s,PASSED
+delay(3),Firefox 88.0,,,2021-11-05 11:31:31,2021-11-05 11:31:34,3.373s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Home  FptBookStore/img_Book""), 10)",Firefox 88.0,,,2021-11-05 11:31:34,2021-11-05 11:31:35,0.769s,PASSED
+"click(findTestObject(""Object Repository/Page_Home  FptBookStore/img_Book""))",Firefox 88.0,,,2021-11-05 11:31:35,2021-11-05 11:31:38,3.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home  FptBookStore/input_Quantity_AddToCartInput.Count""), ""4"")",Firefox 88.0,,,2021-11-05 11:31:38,2021-11-05 11:31:39,1.196s,PASSED
+"click(findTestObject(""Object Repository/Page_Home  FptBookStore/button_Add to cart""))",Firefox 88.0,,,2021-11-05 11:31:39,2021-11-05 11:31:41,1.677s,PASSED
+delay(6),Firefox 88.0,,,2021-11-05 11:31:41,2021-11-05 11:31:47,6.027s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Home  FptBookStore/button_Cart(0)""), 0)",Firefox 88.0,,,2021-11-05 11:31:47,2021-11-05 11:31:48,0.601s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Home  FptBookStore/button_Cart(0)""), 0)",Firefox 88.0,,,2021-11-05 11:31:48,2021-11-05 11:31:48,0.592s,PASSED
+"navigateToUrl(""http://fptbookstore.slimair.cool/Customer/Cart"")",Firefox 88.0,,,2021-11-05 11:31:48,2021-11-05 11:31:49,1.253s,PASSED
+delay(4),Firefox 88.0,,,2021-11-05 11:31:49,2021-11-05 11:31:53,4.024s,PASSED
+"click(findTestObject(""Object Repository/Page_Home  FptBookStore/product_Cart""))",Firefox 88.0,,,2021-11-05 11:31:53,2021-11-05 11:31:54,0.896s,PASSED
+"takeElementScreenshotAsCheckpoint(""report_Product_Cart"", findTestObject(""Object Repository/Page_Home  FptBookStore/product_Cart""))",Firefox 88.0,,,2021-11-05 11:31:54,2021-11-05 11:31:56,1.394s,PASSED
+Start tear down : tearDown,Firefox 88.0,,,2021-11-05 11:31:56,2021-11-05 11:31:57,1.411s,PASSED

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FptBook_Test" time="69.281" tests="1" failures="0" errors="0">
+   <testsuite name="FptBook_Test" tests="1" failures="0" errors="0" time="69.281" skipped="0" timestamp="2021-11-05 11:30:50" hostname="root - 40a8cde2b92a" id="Test Suites/FptBook_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/project/Reports/20211105_113027/FptBook_Test/20211105_113035"/>
+         <property name="logFiles" value="/tmp/project/Reports/20211105_113027/FptBook_Test/20211105_113035/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-report_Product_Cart.png"/>
+         <property name="hostName" value="root - 40a8cde2b92a"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Firefox 88.0"/>
+         <property name="hostAddress" value="172.23.0.2"/>
+         <property name="sessionId" value="7533e690-6c38-493d-943b-f9f9fad1da57"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart" time="65.238" classname="Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart" status="PASSED">
+         <system-out><![CDATA[2021-11-05 11:30:52 - [TEST_CASE][PASSED] - Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart: Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart
+
+2021-11-05 11:30:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-05 11:30:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-11-05 11:30:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 11:31:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-05 11:31:14 - [TEST_STEP][PASSED] - navigateToUrl("http://fptbookstore.slimair.cool/"): Navigate to 'http://fptbookstore.slimair.cool/' successfully
+
+2021-11-05 11:31:19 - [MESSAGE][PASSED] - Navigate to 'http://fptbookstore.slimair.cool/' successfully
+
+2021-11-05 11:31:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 11:31:19 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 11:31:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  FptBookStore/a_Login")): Object: 'Object Repository/Page_Home  FptBookStore/a_Login' is clicked on
+
+2021-11-05 11:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  FptBookStore/a_Login' is clicked on
+
+2021-11-05 11:31:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home  FptBookStore/input_Email_Input.Email"), "phuongnnse@fpt.edu.vn"): Text 'phuongnnse@fpt.edu.vn' is set on object 'Object Repository/Page_Home  FptBookStore/input_Email_Input.Email'
+
+2021-11-05 11:31:26 - [MESSAGE][PASSED] - Text 'phuongnnse@fpt.edu.vn' is set on object 'Object Repository/Page_Home  FptBookStore/input_Email_Input.Email'
+
+2021-11-05 11:31:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Home  FptBookStore/input_Password_Input.Password"), "rBiF04Ek6lW1rw3U6XrRJA=="): Text ****** has been set on object 'Object Repository/Page_Home  FptBookStore/input_Password_Input.Password'
+
+2021-11-05 11:31:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Home  FptBookStore/input_Password_Input.Password'
+
+2021-11-05 11:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  FptBookStore/button_Log in")): Object: 'Object Repository/Page_Home  FptBookStore/button_Log in' is clicked on
+
+2021-11-05 11:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  FptBookStore/button_Log in' is clicked on
+
+2021-11-05 11:31:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-11-05 11:31:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-11-05 11:31:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Home  FptBookStore/img_Book"), 10): Scroll to object 'Object Repository/Page_Home  FptBookStore/img_Book' successfully
+
+2021-11-05 11:31:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Home  FptBookStore/img_Book' successfully
+
+2021-11-05 11:31:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  FptBookStore/img_Book")): Object: 'Object Repository/Page_Home  FptBookStore/img_Book' is clicked on
+
+2021-11-05 11:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  FptBookStore/img_Book' is clicked on
+
+2021-11-05 11:31:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home  FptBookStore/input_Quantity_AddToCartInput.Count"), "4"): Text '4' is set on object 'Object Repository/Page_Home  FptBookStore/input_Quantity_AddToCartInput.Count'
+
+2021-11-05 11:31:39 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_Home  FptBookStore/input_Quantity_AddToCartInput.Count'
+
+2021-11-05 11:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  FptBookStore/button_Add to cart")): Object: 'Object Repository/Page_Home  FptBookStore/button_Add to cart' is clicked on
+
+2021-11-05 11:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  FptBookStore/button_Add to cart' is clicked on
+
+2021-11-05 11:31:41 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2021-11-05 11:31:47 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2021-11-05 11:31:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Home  FptBookStore/button_Cart(0)"), 0): Scroll to object 'Object Repository/Page_Home  FptBookStore/button_Cart(0)' successfully
+
+2021-11-05 11:31:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 11:31:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Home  FptBookStore/button_Cart(0)' successfully
+
+2021-11-05 11:31:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Home  FptBookStore/button_Cart(0)"), 0): Scroll to object 'Object Repository/Page_Home  FptBookStore/button_Cart(0)' successfully
+
+2021-11-05 11:31:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 11:31:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Home  FptBookStore/button_Cart(0)' successfully
+
+2021-11-05 11:31:48 - [TEST_STEP][PASSED] - navigateToUrl("http://fptbookstore.slimair.cool/Customer/Cart"): Navigate to 'http://fptbookstore.slimair.cool/Customer/Cart' successfully
+
+2021-11-05 11:31:49 - [MESSAGE][PASSED] - Navigate to 'http://fptbookstore.slimair.cool/Customer/Cart' successfully
+
+2021-11-05 11:31:49 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-11-05 11:31:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-11-05 11:31:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  FptBookStore/product_Cart")): Object: 'Object Repository/Page_Home  FptBookStore/product_Cart' is clicked on
+
+2021-11-05 11:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  FptBookStore/product_Cart' is clicked on
+
+2021-11-05 11:31:54 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("report_Product_Cart", findTestObject("Object Repository/Page_Home  FptBookStore/product_Cart")): Taking screenshot successfully
+
+2021-11-05 11:31:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-05 11:31:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-11-05 11:31:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-report_Product_Cart.png]]
+
+2021-11-05 11:31:56 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2021-11-05 11:31:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-05 11:31:57 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-05 11:31:57 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-05 11:30:50 - [TEST_SUITE][PASSED] - FptBook_Test: Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

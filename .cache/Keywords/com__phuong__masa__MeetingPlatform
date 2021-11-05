@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "6BFDBF8355AE580AECC6916BFC1E2468",
+  "keywordClasses": [
+    {
+      "name": "com.phuong.masa.MeetingPlatform",
+      "keywordMethods": [
+        {
+          "name": "getPlatform",
+          "parameters": [
+            {
+              "name": "element",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
