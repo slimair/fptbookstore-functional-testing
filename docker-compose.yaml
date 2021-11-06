@@ -1,15 +1,9 @@
 version: '3.2'
 services:
   FptBookCatalon:
-    networks:
-      - FptBook
-    environment:
-      base_URL: "http://FptBookStore.slimair.cool"
     build:
       context: ./
     image: tiendvlp/katalon
     volumes: 
     - ./Reports:/tmp/project/Reports
-networks:
-  FptBook:
   
