@@ -20,8 +20,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('FptBookTest:80')
-
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_Login'))
@@ -40,6 +38,8 @@ WebUI.navigateToUrl('http://fptbookstore.slimair.cool/Customer/Cart')
 WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'))
 
 WebUI.takeElementScreenshotAsCheckpoint('report_Empty_Cart', findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'))
+
+WebUI.navigateToUrl('http://FptBookTest:80')
 
 @TearDown
 def tearDown() {
