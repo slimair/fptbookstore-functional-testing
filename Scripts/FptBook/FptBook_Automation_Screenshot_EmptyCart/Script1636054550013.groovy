@@ -18,7 +18,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://fptbookstore.slimair.cool')
+WebUI.openBrowser('http://FptBookTest:80')
+
+WebUI.navigateToUrl('http://FptBookTest:80')
 
 WebUI.maximizeWindow()
 
@@ -31,15 +33,20 @@ WebUI.setEncryptedText(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptB
 
 WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/button_Log in'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.navigateToUrl('http://fptbookstore.slimair.cool/Customer/Cart')
+WebUI.navigateToUrl('http://FptBookTest:80/Customer/Cart')
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'), 0)
 
 WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'))
 
 WebUI.takeElementScreenshotAsCheckpoint('report_Empty_Cart', findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'))
 
-WebUI.navigateToUrl('http://FptBookTest:80')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Home  FptBookStore/p_There is no item in the shopping cart'), 
+    'There is no item in the shopping cart')
 
 @TearDown
 def tearDown() {

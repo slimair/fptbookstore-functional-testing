@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_There is no item in the shopping cart</name>
+   <name>empty_product_Cart</name>
    <tag></tag>
-   <elementGuidId>76247af6-e6f0-49c4-bdd7-e07d70874e7d</elementGuidId>
+   <elementGuidId>f510cd21-c022-4984-9b49-aaee26d6fe2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.text-black-50</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::p[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-black-50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,56 +36,54 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                    There is no item in the shopping cart
-                </value>
+        
+            Oh Sorry :(
+        
+        
+            There is no item in the shopping cart
+        
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;text-black-50&quot;]/p[2]</value>
+      <value>/html[1]/body[@class=&quot;right-sidebar woocommerce-cart&quot;]/form[1]/div[@class=&quot;text-black-50&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='aaa'])[1]/following::p[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='aaa'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ookStore'])[2]/preceding::p[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ookStore'])[2]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[2]/preceding::p[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='There is no item in the shopping cart']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[2]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[2]</value>
+      <value>//form/div</value>
    </webElementXpaths>
 </WebElementEntity>
