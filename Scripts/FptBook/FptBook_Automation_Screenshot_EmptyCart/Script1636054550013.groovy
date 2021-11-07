@@ -24,26 +24,25 @@ WebUI.navigateToUrl('http://FptBookTest:80')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Home  FptBookStore/a_Login'))
 
-WebUI.setText(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Email_Input.Email'), 'phuongnnse@fpt.edu.vn')
+WebUI.setText(findTestObject('Object Repository/Page_Home  FptBookStore/input_Email_Input.Email'), 'phuongnnse@fpt.edu.vn')
 
-WebUI.setEncryptedText(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Password_Input.Password'), 
-    'rBiF04Ek6lW1rw3U6XrRJA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home  FptBookStore/input_Password_Input.Password'), 'rBiF04Ek6lW1rw3U6XrRJA==')
 
-WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/button_Log in'))
-
-WebUI.delay(5)
-
-WebUI.navigateToUrl('http://FptBookTest:80/Customer/Cart')
+WebUI.click(findTestObject('Object Repository/Page_Home  FptBookStore/button_Log in'))
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'), 0)
+WebUI.click(findTestObject('Object Repository/Page_Home  FptBookStore/a_Cart(0)'))
 
-WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'))
+WebUI.delay(5)
 
-WebUI.takeElementScreenshotAsCheckpoint('report_Empty_Cart', findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/empty_product_Cart'))
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Home  FptBookStore/empty_product_Cart'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_Home  FptBookStore/empty_product_Cart'))
+
+WebUI.takeElementScreenshotAsCheckpoint('report_Empty_Cart', findTestObject('Object Repository/Page_Home  FptBookStore/empty_product_Cart'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Home  FptBookStore/p_There is no item in the shopping cart'), 
     'There is no item in the shopping cart')
