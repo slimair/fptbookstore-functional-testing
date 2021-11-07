@@ -32,11 +32,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Home  FptBookStore
 
 WebUI.click(findTestObject('Object Repository/Page_Home  FptBookStore/button_Log in'))
 
-WebUI.delay(5)
+WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/Page_Home  FptBookStore/a_Cart(0)'))
-
-WebUI.delay(5)
+WebUI.navigateToUrl('http://FptBookTest:80/Customer/Cart')
 
 WebUI.scrollToElement(findTestObject('Object Repository/Page_Home  FptBookStore/empty_product_Cart'), 0)
 
